@@ -6,7 +6,8 @@ The main purpose of this project is to provide an aiding tool for the blind and 
 The chosen neural network is a fully convolution neural network(FCN) a fine-tuneded VGG16 as backbone
  
 The model was a fine-tuned VGG16 where the fully connected layers were removed where the first part uses a similar architecture of the CNN architecture for the feature extraction and by removing the flatten layer or fully connected layers and reconstructing the image using skip connection the image is reconstructed again but in the a complete high-resolution image in which all the pixels are classified.
-#Deployment
+
+# Deployment
 using flask framework to deploy the model to a flutter mobil application as the image needed processing and to exctracting the lables from it 
 
 Dataset: cityscapes
